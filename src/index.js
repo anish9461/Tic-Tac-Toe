@@ -66,7 +66,7 @@ function Square(props)
       if(winner)
         status = 'Winner: ' + winner;  
       else
-        status = 'Next player is: ' + (this.state.xIsNext ? 'X' : 'O');
+        status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
   
       return (
         <div>
